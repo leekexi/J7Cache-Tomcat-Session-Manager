@@ -33,3 +33,6 @@ tomcat-juli.jar
 ## Get J7Cache Server
 https://github.com/leekexi/J7Cache
 
+
+## Reference materials, thanks
+https://github.com/jcoleman/tomcat-redis-session-manager
