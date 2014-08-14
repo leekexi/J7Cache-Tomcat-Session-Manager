@@ -23,7 +23,14 @@ tomcat-juli.jar
 ## Add the following into your tomcat context.xml
 ```
 <Valve className="com.j7.session.J7SessionHandlerValve" />
-<Manager className="com.j7.session.J7SessionManager" host="$J7CacheServer IP"  port="$J7CacheServer Listening port"  database="J7SESSIONS"  maxInactiveInterval="600" />
+
+<Manager className="com.j7.session.J7SessionManager" 
+host="$J7CacheServer IP"  
+port="$J7CacheServer Listening port"  
+database="J7SESSIONS"  
+maxInactiveInterval="600" 
+/>
+
 ```
 
 ## Get J7Cache Server
